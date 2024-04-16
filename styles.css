@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+p{
+    color: rgb(85,85,85);
+}
+a, .btn{
+transition: all 200ms ease;
+}
+
+nav, .nav-links{
+    display: flex;
+}
+nav{
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.25rem;
+}
+a{
+    color:#000 ;
+    text-decoration: none;
+}
+a:hover{
+    color:#747474;
+    text-decoration: underline;
+    text-underline-offset: .5rem;
+    text-decoration-color: rgb(132, 132, 132);
+}
+.logo{
+    font-size: 1.5rem;
+}
+.logo:hover{
+    cursor: default;
+}
