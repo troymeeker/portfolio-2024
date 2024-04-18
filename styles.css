@@ -364,7 +364,14 @@ section {
     color: black;
     border-color: rgb(163, 163, 163);
   }
-  
+  .other-btn{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 10vh;
+    margin: 2rem auto;
+    padding: 0.5rem;
+  }
   /* CONTACT */
   
   #contact {
