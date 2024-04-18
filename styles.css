@@ -264,7 +264,7 @@ section {
   }
   
   .about-pic {
-    border-radius: 2rem;
+    border-radius: 2.5rem;
   }
   
   .arrow {
@@ -296,6 +296,7 @@ section {
   }
   .profile-photo{
     border-radius: 50%;
+    /* border-radius: 2rem; */
   }
   
   /* EXPERIENCE SECTION */
