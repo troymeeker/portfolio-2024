@@ -2,7 +2,7 @@
     #desktop-nav{
         display: none;
     }
-    #mobile-nav{
+    #hamburger-nav{
         display: flex;
     }
 }
